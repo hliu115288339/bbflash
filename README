@@ -1,6 +1,6 @@
 This is the README file for the bbflash distribution.
 bbflash dumps and flashes the PMC PM49FL004T flash chip by bitbanging the
-FirmWare Hub (FWH) and (Low Pin Count) LPC protocols over the BeagleBone's GPIO
+FirmWare Hub (FWH) and Low Pin Count (LPC) protocols over the BeagleBone's GPIO
 interface.
 
 	Copyright (C) 2013, Hao Liu and Robert L. Thompson
