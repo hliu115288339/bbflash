@@ -1,0 +1,17 @@
+This is the README file for the bbflash distribution.
+bbflash dumps and flashes the PMC PM49FL004T flash chip by bitbanging the
+FirmWare Hub (FWH) and (Low Pin Count) LPC protocols over the BeagleBone's GPIO
+interface.
+
+	Copyright (C) 2013, Hao Liu and Robert L. Thompson
+
+	Copying and distribution of this file, with or without modification,
+	are permitted in any medium without royalty provided the copyright
+	notice and this notice are preserved.  This file is offered as-is,
+	without warranty of any kind.
+
+See the file INSTALL for building and installation instructions.
+
+Primary distribution point: http://github.com/hliu115288339/bbflash
+
+This program has only been tested on Linux kernel 3.8.

@@ -1,0 +1,17 @@
+Additional contributors to bbflash.
+
+	Copyright (C) 2013, Hao Liu and Robert L. Thompson
+
+	Copying and distribution of this file, with or without modification,
+	are permitted in any medium without royalty provided the copyright
+	notice and this notice are preserved.  This file is offered as-is,
+	without warranty of any kind.
+
+Thanks to:
+
+Ethan Hayon for his am335x.h file
+
+TJ for pointing us to the export and unexport files in /sys/class/gpio to
+control the pin multiplexor.
+
+See also the AUTHORS and CHANGELOG files.

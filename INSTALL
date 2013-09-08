@@ -1,0 +1,14 @@
+Installation Instructions
+*************************
+
+	Copyright (C) 2013, Hao Liu and Robert L. Thompson
+
+	Copying and distribution of this file, with or without modification,
+	are permitted in any medium without royalty provided the copyright
+	notice and this notice are preserved.  This file is offered as-is,
+	without warranty of any kind.
+
+Basic Installation
+==================
+
+	Run make to build the program.  (There is no install target.)
