@@ -7,14 +7,15 @@ _DEPS = am335x.h gpio.h nibble.h fwh.h lpc.h proto.h pm49fl00x.h
 DEPS = $(patsubst %,$(SRC)/%,$(_DEPS))
 _OBJ = gpio.o nibble.o fwh.o lpc.o proto.o pm49fl00x.o bbflash.o
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
-
-$(ODIR)/%.o: $(SRC)/%.c $(DEPS)
-	$(CC) -c -o $@ $< $(CFLAGS)
+RM = rm
 
 bbflash: $(OBJ)
 	gcc -o $@ $^ $(CFLAGS) $(LIBS)
 
+$(ODIR)/%.o: $(SRC)/%.c $(DEPS)
+	$(CC) -c -o $@ $< $(CFLAGS)
+
 .PHONY: clean
 
 clean:
-	rm -f $(ODIR)/*.o bbflash
+	$(RM) -f $(OBJ) bbflash
